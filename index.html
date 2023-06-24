@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Incluindo as fontes do projeto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Dancing+Script&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <!-- Incluindo o arquivo CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Incluindo o script JavaScript com o atributo 'defer' -->
+    <script src="script.js" defer></script>
+    <title>Biscoito da Sorte</title>
+</head>
+<body>
+    <!-- Tela inicial antes de abrir o biscoito -->
+    <div class="screenClose">
+        <h2>Qual é a sua sorte de hoje?</h2>
+        <p>Abra o biscoito e descubra!</p>
+        <img class="cookieBtn" src="fortune-cookie.svg">
+    </div>
+    <!-- Tela mostrada após abrir o biscoito -->
+    <div class="screenOpen hide">
+        <h2>Aqui está a sua sorte de hoje:</h2>
+        <p class="message"></p>
+        <img src="opened-cookie.svg">
+        <button id="openNewOne">Abrir outro biscoito</button>
+    </div>
+</body>
+</html>
