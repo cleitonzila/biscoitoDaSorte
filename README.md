@@ -7,6 +7,7 @@ Este é um simples projeto de um "Biscoito da Sorte" feito com HTML, CSS e JavaS
 1. Abra o arquivo `index.html` no seu navegador.
 2. Clique no biscoito para revelar a sua sorte do dia.
 3. Se desejar, você pode clicar no botão "Abrir outro biscoito" para obter uma nova sorte.
+4. Também é possível acessar por esse link: https://cleitonzila.github.io/biscoitoDaSorte/
 
 ## Funcionalidades
 
